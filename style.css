@@ -1,0 +1,51 @@
+body{
+background-color: aqua;
+}
+header{  
+     border: 1px silver;
+    padding: 39px;
+    text-align: center;
+    border: radius 20px;;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+   color: yellow;
+  }
+  p{
+    font-style: italic;
+
+  }
+  img{
+    width: 40%;
+    border: 3px solid red;
+    border-radius: 40px 0 40px 0;
+    margin-bottom: 30px;
+    display: block;
+    margin: 0 auto;
+
+  }
+  button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+  }
+
+  .project {
+    width: 90%;
+    color: aqua;
+    text-align: center;
+  }
+
+  .project-image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    gap: 20px;
+  }
+  
+  
